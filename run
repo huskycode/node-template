@@ -15,4 +15,4 @@ then
 fi
 
 # Now run the make
-node build/make_bootstrap.js $@
+./node_modules/coffee-script/bin/coffee build/make.coffee build/make.coffee $@
